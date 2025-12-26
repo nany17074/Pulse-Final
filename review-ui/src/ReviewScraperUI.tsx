@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Activity, Download, Terminal, RefreshCw, Copy } from 'lucide-react';
 
 const ReviewScraperUI = () => {
